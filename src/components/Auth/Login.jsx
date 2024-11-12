@@ -17,7 +17,7 @@ const Login = ({handleLogin}) => {
 
 
   return (
-    <div className='flex h-screen w-screen items-center justify-center text-white'>
+    <div className='flex flex-col mt-10 h-screen w-screen items-center justify-center text-white'>
         <div className='border-2 rounded-xl border-emerald-600 p-20'>
             <form 
             onSubmit={(e)=>{
@@ -42,6 +42,18 @@ const Login = ({handleLogin}) => {
                 className='outline-none bg-transparent border-2 border-emerald-600 font-medium text-lg py-2 px-6 rounded-full mt-3 placeholder:text-gray-400' type="password" placeholder='Enter password' />
                 <button className='mt-7 text-white border-none outline-none hover:bg-emerald-700 font-semibold bg-emerald-600 text-lg py-2 px-8 w-full rounded-full placeholder:text-white'>Log in</button>
             </form>
+        </div>
+
+
+        <div className='flex h-screen w-screen items-center justify-center text-white'>
+            <div className='border-2 rounded-xl border-emerald-600 p-10'>
+                <h3 className='text-2xl font-semibold'>eamilid of admin : admin@me.com</h3>
+                <h3 className='text-2xl font-semibold'>eamilid of employee2 : employee2@me.com</h3>
+                <h3 className='text-2xl font-semibold'>eamilid of employee3 : employee3@me.com</h3>
+                <h3 className='text-2xl font-semibold'>eamilid of employee4 : employee4@me.com</h3>
+                <h3 className='text-2xl font-semibold'>eamilid of employee5 : employee5@me.com</h3>
+                <h5>password is same of all : 123</h5>
+            </div>
         </div>
     </div>
   )
